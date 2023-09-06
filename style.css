@@ -1,0 +1,140 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+	
+	
+
+
+}
+.portada{
+	display: flex;
+	width: 100%;
+	height: 31vh;
+	
+	
+}
+.portada img{
+	width: 100%;
+	height: 300px;
+
+}
+.contenedor{
+	display: flex;
+	flex-direction:column;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+	width: 100%;
+	font-size: 15px;
+	margin-top: 60px;
+	
+}
+.contenedor img{
+	width: 350px;
+	height: 250px;
+}
+.texto-imagen{
+	width: 100%;
+
+	
+}
+.todo{
+	display: flex;
+	
+	flex-wrap: wrap;
+	flex-direction: column;
+	gap: 20px;
+	
+	
+	height: 90vh;
+}
+
+.portada h4{
+	position:absolute;
+	font-size: 1.5rem;
+	top: 14%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+
+}
+.portada p{
+	position: absolute;
+	font-size: 0.8rem;
+	top: 20%;
+	left: 50%;
+
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.barra{
+	display: flex;
+
+}
+.barra a{
+	display: inline-flex;
+	text-decoration: none;
+	color: black;
+	margin: 30px;
+	align-items: flex-end;
+
+
+	
+}
+.cabecera-titulo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-between;
+
+	
+
+
+}
+.cabecera-titulo img{
+	width: 25px;
+	height: 25px;
+}
+.icono{
+	display: flex;
+	border-left: 1px solid #ccc;
+    justify-content: space-evenly;
+    width: 100%;
+	
+ 	
+
+
+}
+.negrita{
+	font-size: 14px;
+}
+.textito{
+	font-size: 15px;
+	color: #5D6061;
+}
+.todo h1{
+	margin: 5px;
+	margin-left: 0;
+
+}
+.fecha{
+	font-size: 10px;
+
+}
+.parte-final{
+	display: flex;
+	justify-content: center;
+	color: #ccc;
+	justify-content: space-evenly;
+	height: 30vh;
+	list-style: none;
+	font-size: 15px;
+	background:#49494A ;
+	align-items: center;
+
+
+}
+.cabecera-titulo h1{
+	padding-left: 30px;
+}
